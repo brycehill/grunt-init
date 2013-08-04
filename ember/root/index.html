@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>{%= title %}</title>
+  <meta name="description" content="{%= description %}">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="{%= pathToBower %}/bootstrap.css/css/bootstrap.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header>
+    <ul class="nav nav-pills pull-right">
+      <li class=""><a href="#">Page 1</a></li>
+      <li class=""><a href="#">Page 2</a></li>
+      <li class=""><a href="#">Page 3</a></li>
+    </ul>
+    <div class="clearfix"></div>
+  </header>
+  <div class="row-fluid">
+    <div class="span10 offset1">
+      <h1>Hello!</h1>
+      <p>Welcome to my new app. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Provident, fugit, optio, qui, est commodi aut et aliquid placeat velit quasi
+        inventore molestias pariatur libero porro consequuntur esse labore doloremque voluptatum.
+      </p>
+    </div>
+  </div>
+
+  <!-- Leaving concat and minify up to you. -->
+  <script src="{%= pathToBower %}/jquery/jquery.js"></script>
+  <script src="{%= pathToBower %}/ember/ember.js"></script>
+  <script src="{%= pathToBower %}/handlebars/handlebars.js"></script>
+</body>
+</html>
+
